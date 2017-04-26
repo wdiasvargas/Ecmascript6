@@ -21,8 +21,9 @@ elemento2 = null;
 
 
 var weakMap = new WeakMap();
-function () {};
+function() {};
 var objeto = {};
 
 weakMap.set("string", "isso é uma string");
-we
+weakMap.set(funcao,	"isso	é	uma	função");
+weakMap.set(objeto,	"isso	é	um	objeto");
