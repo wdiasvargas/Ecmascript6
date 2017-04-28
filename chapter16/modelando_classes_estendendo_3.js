@@ -20,6 +20,7 @@ class Sonix extends Carro{
   constructor (modelo,chassi,qtdPortas){
     super(modelo, chassi, qtdPortas);
   }
+
   abrirTetoSolar(){
     console.log('abrindo teto solar');
   }
