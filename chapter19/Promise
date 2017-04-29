@@ -1,0 +1,11 @@
+export let	promise	=	new	Promise((resolve,	reject)	=>	{
+  let	resultado	=	false;
+  let	tempo	=	2000;	//	milisegundos
+  setTimeout(()	=>	{
+    if(resultado)	{
+      resolve("deu	tudo	certo!");
+    }	else	{
+      reject("deu	tudo	errado!");
+    }
+  },	tempo)
+});
